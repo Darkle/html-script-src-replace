@@ -1,0 +1,19 @@
+{
+  "name": "html-script-src-replace",
+  "version": "0.1.4",
+  "description": "Replace a script elements src in an html page via cli",
+  "main": "index.js",
+  "bin":{
+    "html-script-src-replace": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/Darkle1/html-script-src-replace.git"
+  },
+  "author": "",
+  "license": "GPL3",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^5.1.0"
+  }
+}
